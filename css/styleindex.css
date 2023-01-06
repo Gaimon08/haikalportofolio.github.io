@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+  /* CSS yang akan diterapkan pada perangkat dengan ukuran layar maksimal 600px */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    place-content: center;
+  }
+
+  .header{
+    margin-top: 0;
+    font-family:'League Spartan', sans-serif;
+    font-size: 15px;
+    place-content: center;
+  }
+
+  .card-image {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+  background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+  }
